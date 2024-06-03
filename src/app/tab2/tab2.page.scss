@@ -1,0 +1,79 @@
+ion-content{
+    padding: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+//Cabeçalho
+ion-toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    --background: none;
+    --background-color: transparent;
+    --border-color: transparent;
+    padding: 4%;
+    font-family: "Montserrat", sans-serif;
+}
+
+ion-header{
+    box-shadow: none;
+    --background: none
+    --background-color: transparent;
+}
+
+ion-icon{
+    width: 35px;
+    height: 35px;
+    margin: 3%;
+}
+
+.user{
+    margin-left: 35%;
+}
+
+//Icones
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3, .box4{
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px;
+    width: 190px;
+    height: 100px;
+}
+
+.box1{
+    background-color: rgb(110, 210, 139);
+}
+
+.box2{
+    background-color: rgb(153, 210, 238);
+}
+
+.box3{
+    background-color: rgb(240, 181, 201);
+}
+
+.text{
+    margin-top: auto;
+    margin-bottom: auto;
+}

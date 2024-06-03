@@ -1,17 +1,54 @@
 <ion-header [translucent]="true">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-icon name="location-outline" slot="start"></ion-icon> Taboão da Serra, SP
+    <img src="../../assets/imagens/user.png" alt="foto de usuário" class="user">
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar placeholder=""></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="container">
+    <div class="firstRow">
+      <div class="box1">
+        <div class="img">
+          <img src="../../assets/imagens/frutas.png" alt="Imgem de um abacate">
+        </div>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+        <div class="text">Frutas</div>
+      </div>
+
+      <div class="box2">
+        <div class="img">
+          <img src="../../assets/imagens/diversos.png" alt="Imagem de um chocolate">
+        </div>
+
+        <div class="text">
+          <p>Diversos</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="secondRow">
+      <div class="box3">
+        <div class="img">
+          <img src="../../assets/imagens/acougue.png" alt="Imagem de um frngo assado">
+        </div>
+
+        <div class="text">Açougue</div>
+      </div>
+
+      <div class="box4">
+        <div class="img"></div>
+
+        <div class="text"></div>
+      </div>
+    </div>
+  </div>
 </ion-content>

@@ -1,0 +1,66 @@
+ion-content{
+    padding: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+//Cabeçalho
+ion-toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    --background: none;
+    --background-color: transparent;
+    --border-color: transparent;
+    padding: 4%;
+    font-family: "Montserrat", sans-serif;
+}
+
+ion-header{
+    box-shadow: none;
+    --background: none
+    --background-color: transparent;
+}
+
+//corpo
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    justify-content: space-around;
+}
+
+img{
+    margin-left: 15%;
+}
+
+.texto{
+    width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.descricao{
+    text-align: center;
+    font-size: 15px;
+}
+
+.botao{
+    margin-top: 8%;
+}
+
+ion-button{
+    margin-left: 20%;
+    width: 250px;
+    height: 90px;
+    font-size: 33px;
+}

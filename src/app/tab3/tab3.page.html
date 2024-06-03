@@ -1,17 +1,85 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <ion-toolbar></ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="title">
+    <h1><b>Meu Carrinho</b></h1>
+  </div>
+  <div class="container">
+    <div class="itens">
+      <div class="frutas">
+        <div class="box1">
+          <div class="img1">
+            <img src="../../assets/imagens/frutas.png" alt="Imagem de um abacate">
+          </div>
+    
+          <div class="descricao">
+            <div class="nome">Frutas</div>
+    
+            <div class="preco"><b>$50,00</b> 5 items</div>
+          </div>
+        </div>
+  
+        <div class="textoEditar">
+          <div class="editar">Editar</div>
+        </div>
+      </div>
+  
+      <div class="divercos">
+        <div class="box2">
+          <div class="img2">
+            <img src="../../assets/imagens/diversos.png" alt="Imagem de um chocolate">
+          </div>
+    
+          <div class="descricao">
+            <div class="nome">Diverços</div>
+    
+            <div class="preco"><b>$35,40</b> 6 items</div>
+          </div>
+        </div>
+  
+        <div class="textoEditar">
+          <div class="editar">Editar</div>
+        </div>
+      </div>
+  
+      <div class="acougue">
+        <div class="box3">
+          <div class="img3">
+            <img src="../../assets/imagens/acougue.png" alt="Imagem de um frango assado">
+          </div>
+    
+          <div class="descricao">
+            <div class="nome">Açougue</div>
+    
+            <div class="preco"><b>$56,44</b> 3 items</div>
+          </div>
+        </div>
+  
+        <div class="textoEditar">
+          <div class="editar">Editar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </ion-content>
+
+<ion-footer>
+  <div class="finalPrice">
+    <div class="footer">
+      <div class="percoTotal">
+        <p id="totalPagar">Total a pagar</p>
+        <p id="precoPagar"><b>$141,84</b></p>
+      </div>
+  
+      <div class="pagarAgora">
+        <p id="textoPagarAgora">pagar agora<ion-icon name="arrow-forward-outline"></ion-icon></p>
+      </div>
+    </div>
+  </div>
+</ion-footer>
